@@ -1,0 +1,49 @@
+
+*{font-family: 'Assistant', sans-serif;}
+
+#navbar{
+  margin-top:0px;
+}
+
+.row1{
+  background-color: rgb(0, 0, 0);
+}
+
+#imagesslider{
+margin-top:0px;
+}
+
+#about{
+padding:40px;
+}
+
+#contact{
+margin-top:40px;
+padding-top:10px;
+}
+
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover
+{
+     color:rgb(85, 88, 94);
+     text-decoration:none;
+     cursor:pointer;
+}
+
+button.center-block{
+  float:center;
+}
+
+#footer {
+  margin-top:2em;
+  background-color:rgb(217, 217, 217);
+}
+
+#paragraphfooter{
+  font-size: 12px;
+}
