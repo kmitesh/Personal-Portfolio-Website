@@ -193,7 +193,7 @@
     <hr>
 
     <div class="container">
-      <h4 class="sent-notification"></h4>
+        <h4 class="text-center sent-notification"></h4>
 
       <form id="myForm" method="post" action="" role="form">
 
@@ -218,7 +218,7 @@
         </div>
 
         <div class="text-center">
-          <button type="submit" class="btn btn-primary mb-4">Submit</button>
+          <button type="button" onclick="sendEmail()" value="Send An Email" class="btn btn-primary mb-4">Submit</button>
         </div>
 
       </form>
