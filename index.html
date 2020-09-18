@@ -2,13 +2,15 @@
 <html lang="en">
 
 <head>
-  <title>Bootstrap 4 Example</title>
+  <title>About - Krishna Mitesh Gurung</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="font-awesome/css/all.min.css">
   <link href="https://fonts.googleapis.com/css?family=Assistant&display=swap" rel="stylesheet">
+  <link rel="icon" href="images/title-icon.png">
+
 
 <body>
 
@@ -127,7 +129,7 @@
               <div class="card-body text-center"> <img src="images/ancesteral essence.png" class="img-fluid" alt="Film Star Galore" />
                 <h5 class="card-title mt-3 text-dark">Ancesteral Essence</h5>
                 <p class="card-text mt-4 text-secondary">Our aim is to reconnect with the undiscovered wisdom from the indigenous cultures...</p>
-                <a href="#" class="btn btn-success">GitHub link</a>
+                <a href="https://github.com/kmitesh/Ancesteral-Essence" class="btn btn-success">GitHub link</a>
                 <a href="#" class="btn btn-primary">Website</a>
               </div>
             </div>
@@ -151,11 +153,11 @@
         <div class="col col-xl-3 col-lg-6 col-md-6 col-12">
 
           <div class="card cardSet2 text-white">
-            <div class="card-body text-center"> <img src="images/cake.jpg" class="img-fluid" alt="Cakes" />
-              <h5 class="card-title mt-3 text-dark">Neringa Cakes</h5>
-              <p class="card-text mt-4 text-secondary">All these cake made from us are are home made. We sell different varieties of flavours .</p>
-              <a href="#" class="btn btn-success">GitHub link</a>
-              <a href="#" class="btn btn-primary">Website</a>
+            <div class="card-body text-center"> <img src="images/vanilla-js.png" class="img-fluid" alt="Cakes" />
+              <h5 class="card-title mt-3 text-dark">Vanilla Js Form</h5>
+              <p class="card-text mt-4 text-secondary">A simple interactie user input field build using vanilla js where user can insert data and delete.</p>
+              <a href="https://github.com/kmitesh/vanilla-js-form" class="btn btn-success">GitHub link</a>
+              <a href="https://stoic-clarke-22521f.netlify.app/" class="btn btn-primary">Website</a>
             </div>
           </div>
 
@@ -164,11 +166,11 @@
         <div class="col col-xl-3 col-lg-6 col-md-6 col-12">
 
           <div class="card cardSet2 text-white">
-            <div class="card-body text-center"> <img src="images/horse.jpg" class="img-fluid" alt="About Horse Equipments" />
-              <h5 class="card-title mt-3 text-dark">Equipecycle</h5>
-              <p class="card-text mt-4 text-secondary">We sell range of different horse costumes and many more other stuffs. Please do visit...</p>
-              <a href="#" class="btn btn-success">GitHub link</a>
-              <a href="#" class="btn btn-primary">Website</a>
+            <div class="card-body text-center"> <img src="images/mitisha.png" class="img-fluid" alt="About Horse Equipments" />
+              <h5 class="card-title mt-3 text-dark">Bootstrap 4 Project</h5>
+              <p class="card-text mt-4 text-secondary">Developed personal portfolio for my client using css 3 flexbox, media queries and grid layout.</p>
+              <a href="https://github.com/kmitesh/Mitisha" class="btn btn-success">GitHub link</a>
+              <a href="https://blissful-mcclintock-e2b5b5.netlify.app/" class="btn btn-primary">Website</a>
             </div>
           </div>
 
@@ -193,28 +195,27 @@
     <hr>
 
     <div class="container">
-      <h4 class="sent-notification"></h4>
 
-      <form id="myForm" method="post" action="" role="form">
+      <form method="post" action="" role="form">
 
         <div class="form-group">
           <label for="contact name">Name</label>
-          <input type="text" class="form-control" id="name" placeholder="Enter Name">
+          <input type="text" class="form-control" id="contactname" placeholder="Enter Name">
         </div>
 
         <div class="form-group">
           <label for="contactmail">Email Address</label>
-          <input type="email" class="form-control" id="email" placeholder="Enter Email">
+          <input type="email" class="form-control" id="contactemail" placeholder="Enter Email">
         </div>
 
         <div class="form-group">
           <label for="contactmail">Subject</label>
-          <input type="text" class="form-control" id="subject" placeholder="Enter Subject">
+          <input type="text" class="form-control" id="contactsubject" placeholder="Enter Subject">
         </div>
 
         <div class="form-group">
           <label for="contactmessage">Message </label>
-          <textarea class="form-control" id="body" rows="6" placeholder="Type Message"></textarea>
+          <textarea class="form-control" id="contactmessage" rows="6"></textarea>
         </div>
 
         <div class="text-center">
@@ -254,43 +255,6 @@
 
 </body>
 
-
-<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-<script type="text/javascript">
-      function sendEmail() {
-          var name = $("#name");
-          var email = $("#email");
-          var subject = $("#subject");
-          var body = $("#body");
-
-          if (isNotEmpty(name) && isNotEmpty(email) && isNotEmpty(subject) && isNotEmpty(body)) {
-              $.ajax({
-                 url: 'sendEmail.php',
-                 method: 'POST',
-                 dataType: 'json',
-                 data: {
-                     name: name.val(),
-                     email: email.val(),
-                     subject: subject.val(),
-                     body: body.val()
-                 }, success: function (response) {
-                      $('#myForm')[0].reset();
-                      $('.sent-notification').text("Message Sent Successfully.");
-                 }
-              });
-          }
-      }
-
-      function isNotEmpty(caller) {
-          if (caller.val() == "") {
-              caller.css('border', '1px solid red');
-              return false;
-          } else
-              caller.css('border', '');
-
-          return true;
-      }
-  </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
