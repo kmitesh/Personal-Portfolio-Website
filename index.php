@@ -102,9 +102,9 @@
             <h4 id="career">Web Developer</h4>
             <a id="myemail" href="mailto:webmaster@example.com">mitesh_grg@hotmail.com</a>
             <ul id = "p_links">
-              <li><a href="https://github.com/kmitesh">GitHub</a></li>
+              <li><a href="https://github.com/kmitesh" target="_blank">GitHub</a></li>
               <li>|</li>
-              <li><a href="https://uk.linkedin.com/in/mitesh-gurung-738456ab">linkedin</a></li>
+              <li><a href="https://uk.linkedin.com/in/mitesh-gurung-738456ab" target="_blank">linkedin</a></li>
             </ul>
           </address>
           <p class="about_paragraph">
