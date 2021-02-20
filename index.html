@@ -105,6 +105,8 @@
               <li><a href="https://github.com/kmitesh" target="_blank">GitHub</a></li>
               <li>|</li>
               <li><a href="https://uk.linkedin.com/in/mitesh-gurung-738456ab" target="_blank">linkedin</a></li>
+              <li>|</li>
+              <li><a href="cv.html" target="_blank">CV</a></li>
             </ul>
           </address>
           <p class="about_paragraph">

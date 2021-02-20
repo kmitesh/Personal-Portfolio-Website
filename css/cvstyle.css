@@ -1,0 +1,232 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#container{
+  display: grid;
+  min-height:100vh;
+  border: 1px solid red;
+ grid-template-columns:1fr;
+ grid-auto-rows: minmax(100px, auto);
+ grid-gap:10px;
+
+
+
+ grid-template-areas:
+ "header"
+ "about"
+ "skills"
+ "projects"
+ "education"
+ "portfolioLinks"
+ "additionalInformation"
+ "footer";
+
+}
+
+#container{
+  display:flex;
+  flex-direction: column;
+}
+
+
+#header{
+grid-area: header;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+line-height: 2;
+margin: 60px;
+padding:5px;
+
+
+
+}
+
+
+address{
+text-align: center;;
+}
+
+
+#linkLists{
+  display:flex;
+  justify-content: center;
+}
+
+#linkLists>li{
+list-style: none;
+margin:0px 5px;
+}
+
+
+#about{
+  grid-area: about;
+  display:flex;
+  flex-direction: column;
+  line-height: 2;
+  margin: 60px;
+  padding:5px;
+  background-color: rgb(244, 240, 240);
+
+}
+
+#skills{
+  grid-area: skills;
+  display:flex;
+  flex-direction: column;
+  margin:50px;
+  background-color: rgb(245, 250, 190);
+  padding:5px;
+
+
+}
+
+#keyskills{
+display:flex;
+flex-wrap:wrap;
+justify-content: center;
+margin: 50px;
+line-height: 2;
+letter-spacing: 5px;
+
+}
+
+#keyskills>li{
+  list-style: none;
+  border: 1px dotted grey;
+  padding:10px;
+}
+
+#projects{
+  grid-area: projects;
+  display:flex;
+  flex-direction: column;
+  margin: 50px;
+  line-height: 2;
+  padding:5px;
+  background-color: rgb(255, 240, 227);
+
+}
+
+
+#portfolio1, #portfolio2, #portfolio3{
+  list-style: none;
+  line-height: 2;
+}
+
+#education{
+  grid-area: education;
+  display:flex;
+  flex-direction: column;
+  margin: 50px;
+  line-height: 2;
+  padding:5px;
+  background-color: rgb(255, 232, 240);
+}
+
+
+#portfolioLinks{
+  grid-area: portfolioLinks;
+  display:flex;
+  flex-direction: column;
+  margin:50px;
+  line-height: 2;
+  padding:5px;
+  background-color: rgb(212, 232, 255);
+
+}
+
+#portfolioLinks>ul>li{
+list-style: none;
+}
+
+#portfolioLinks>ul>li>a{
+  text-decoration: none;
+  color: black;
+}
+
+#portfolioLinks>ul>li>a:hover{
+  text-decoration: none;
+  color: rgb(230, 124, 0);
+}
+
+
+#additionalInformation{
+  grid-area: additionalInformation;
+  display:flex;
+  flex-direction: column;
+  margin:50px;
+  line-height: 2;
+  padding:5px;
+  background-color: rgb(208, 255, 251);
+}
+
+#footer{
+  grid-area:footer;
+  display:flex;
+  flex-direction: column;
+  margin:50px;
+  text-align: center;
+  line-height: 2;
+
+}
+
+#footer p{
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+
+
+/* Media Queries Devices Break Points */
+
+@media(min-width:768px){
+  #container{
+    display: grid;
+    min-height:100vh;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: minmax(100px, auto);
+
+    grid-template-areas:
+    "header ..."
+    "about ..."
+    "skills ..."
+    "projects ..."
+    "education ..."
+    "portfolioLinks ..."
+    "additionalInformation ..."
+    "footer ...";
+
+
+  }
+
+
+
+#header>img{
+  display:flex;
+  flex-direction: column;
+  position:fixed;
+  right:10%;
+
+}
+
+#header h1{
+  font-size: 40px;
+  line-height: 2;
+}
+
+
+}
+
+
+/*
+
+#header{
+
+}
+
+*/
