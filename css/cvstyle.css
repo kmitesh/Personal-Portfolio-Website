@@ -61,6 +61,16 @@ list-style: none;
 margin:0px 5px;
 }
 
+#linkLists>li>a{
+text-decoration: none;
+color:black;
+}
+
+#linkLists>li>a:hover{
+text-decoration: none;
+color:rgb(208, 4, 4);
+}
+
 
 #about{
   grid-area: about;
@@ -178,6 +188,7 @@ list-style: none;
   letter-spacing: 2px;
   font-size: 12px;
 }
+
 
 
 
