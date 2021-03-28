@@ -121,8 +121,17 @@ letter-spacing: 5px;
 
 }
 
+.project-links{
+  text-decoration: none;
+  color:black;
+}
 
-#portfolio1, #portfolio2, #portfolio3{
+.project-links:hover{
+  text-decoration: none;
+  color: rgb(230, 124, 0);
+}
+
+#portfolio1, #portfolio2, #portfolio3, #portfolio4, #portfolio5{
   list-style: none;
   line-height: 2;
 }
