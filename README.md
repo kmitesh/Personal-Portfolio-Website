@@ -1,1 +1,1 @@
-# My personal portfolio website which contains a portfolio, resume and useful links
+# My personal portfolio website which contains a portfolio projects, resume and useful links
