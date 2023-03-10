@@ -9,6 +9,38 @@ body{
 
 }
 
+.color-tab{
+  color:white;
+}
+
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  mix-blend-mode: multiply;
+  z-index: -1;
+}
+
+
+.aboutme-border{
+  border: 0.3px solid white;
+}
+
+.nav-link{
+  letter-spacing: 1.5px;
+}
+
+
+.card:hover{
+  -webkit-box-shadow: 0px 0px 27px 6px rgba(230,230,230,1);
+  -moz-box-shadow: 0px 0px 27px 6px rgba(230,230,230,1);
+  box-shadow: 0px 0px 27px 6px rgba(230,230,230,1);
+
+}
+
 /** FOR CSS GRID LAYOUT
 #header{
   grid-area: header;
@@ -45,6 +77,22 @@ FOR CSS GRID LAYOUT **/
   margin-top:80px;
 }
 
+.bi-bootstrap{
+  color: purple;
+}
+
+.bi-filetype-css{
+  color:#33cc33;
+}
+
+.bi-filetype-js{
+
+  color:#ff8c1a;
+}
+
+.bi-filetype-html{
+  color:#ff4d4d;
+}
 
 #navbarNav{
   margin-top:10px;
@@ -98,18 +146,19 @@ align-self: center;
 }
 
 #cv a{
-  color:rgb(255, 199, 0);
+  color:#ffffff;
   text-decoration: none;
 }
 
 
 #cv a:hover{
-  color:rgb(255, 168, 0);
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  color:#c94fab;
 }
 
 #cv{
   display:flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 #footer {
@@ -223,6 +272,7 @@ color:rgb(208, 4, 4);
     margin-top: 50px;
 
   }
+
  }
 
 @media (max-width:992px) {
@@ -255,6 +305,7 @@ color:rgb(208, 4, 4);
 
   .navbar-brand{
     display: none;
+
   }
 
   .navbar{
